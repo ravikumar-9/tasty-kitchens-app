@@ -1,0 +1,21 @@
+.home-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.carousels-container {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: azure;
+  height: 63vh;
+}

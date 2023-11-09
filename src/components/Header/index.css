@@ -28,3 +28,14 @@
   justify-content: space-between;
   width: 14%;
 }
+.logout-button {
+  height: 30px;
+  width: 90px;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: orange;
+  cursor: pointer;
+}

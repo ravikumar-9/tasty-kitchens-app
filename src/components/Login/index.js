@@ -27,6 +27,8 @@ class Login extends Component {
 
   onSubmitSuccess = jwtToken => {
     Cookies.set('jwt_token', jwtToken, {expires: 30})
+    const {history} = this.props
+    history.replace('/')
   }
 
   onSubmitFailure = err => {
@@ -79,22 +81,22 @@ class Login extends Component {
               <h1 className="tasty-kitchen-heading">Tasty Kitchens</h1>
               <h1 className="login-heading">Login</h1>
               <form className="login-form" onSubmit={this.onSubmitForm}>
-                <label htmlFor="username" className="labels">
+                <label htmlFor="name" className="labels">
                   USERNAME
                 </label>
                 <input
                   type="text"
-                  id="username"
+                  id="name"
                   className="input-field"
                   onChange={this.onChangeUserName}
                   value={name}
                 />
-                <label htmlFor="password" className="labels">
+                <label htmlFor="pass" className="labels">
                   PASSWORD
                 </label>
                 <input
                   type="password"
-                  id="password"
+                  id="pass"
                   className="input-field"
                   onChange={this.onChangePassword}
                   value={password}

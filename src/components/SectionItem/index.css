@@ -1,18 +1,22 @@
-.activeTab {
-  color: orange;
+.active-option {
+  border: none;
+  height: 30px;
+  outline: none;
+  background-color: transparent;
   font-weight: bold;
-  font-size: 17px;
-  cursor: pointer;
-  list-style-type: none;
-  border: none;
-  background-color: transparent;
-  outline: none;
+  font-size: 20px;
+
+  color: orange;
 }
-.inActiveTab {
+.in-active-option {
+  font-weight: bold;
+  font-size: 20px;
   color: black;
-  font-size: 17px;
-  cursor: pointer;
   border: none;
-  background-color: transparent;
   outline: none;
+
+  background-color: transparent;
+}
+.nav-link {
+  text-decoration: line-through;
 }
