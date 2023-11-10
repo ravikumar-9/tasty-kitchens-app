@@ -1,11 +1,44 @@
 .restaurants-list-container {
   display: flex;
   flex-direction: column;
-  height: max-content;
   align-items: center;
   width: 100%;
 }
 .sort-by-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 94%;
+}
+.sort-by-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebf4f5;
   width: 100%;
-  background-color: aqua;
+}
+.popular-heading {
+  font-weight: bold;
+  font-size: 17px;
+}
+.popular-rest-description {
+  font-size: 13px;
+}
+.sort-by-options-container {
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+.options-field {
+  height: 24px;
+  width: 70%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.restaurants-list {
+  width: 94%;
+  display: flex;
+  flex-wrap: wrap;
 }

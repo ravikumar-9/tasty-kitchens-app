@@ -9,12 +9,12 @@
   height: 100vh;
   margin-top: 0px;
 }
-.restaurants-list-container {
+.restaurants-list-main-container {
   display: flex;
   flex-direction: column;
   height: max-content;
-  align-items: center;
   width: 100%;
+  align-items: center;
   height: 50vh;
 }
 .home-main-container {

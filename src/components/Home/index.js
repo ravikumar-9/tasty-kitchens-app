@@ -19,7 +19,7 @@ class Home extends Component {
           <div className="carousel-container">
             <Carousel />
           </div>
-          <div className="restaurants-list-container">
+          <div className="restaurants-list-main-container">
             <RestaurantsList />
           </div>
         </div>
