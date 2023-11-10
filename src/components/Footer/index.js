@@ -23,18 +23,18 @@ export default function Footer() {
       <div className="media-icons-container">
         <FaPinterestSquare
           fill="white"
-          size="34"
+          size="24"
           data-testid="pintrest-social-icon"
         />
         <FaInstagramSquare
           fill="white"
-          size="34"
+          size="24"
           data-testid="instagram-social-icon"
         />
-        <FaTwitter fill="white" size="34" data-testid="twitter-social-icon" />
+        <FaTwitter fill="white" size="24" data-testid="twitter-social-icon" />
         <FaFacebookSquare
           fill="white"
-          size="34"
+          size="24"
           data-testid="facebook-social-icon"
         />
       </div>

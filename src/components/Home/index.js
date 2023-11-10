@@ -13,18 +13,19 @@ import './index.css'
 class Home extends Component {
   render() {
     return (
-      <>
+      <div className="home-bg-container">
         <Header />
-        <div className="home-bg-container">
-          <div className="home-main-container">
-            <div className="carousels-container">
-              <Carousel />
-            </div>
+        <div className="home-main-container">
+          <div className="carousel-container">
+            <Carousel />
           </div>
-          <RestaurantsList />
+          <div className="restaurants-list-container">
+            <RestaurantsList />
+          </div>
         </div>
+
         <Footer />
-      </>
+      </div>
     )
   }
 }

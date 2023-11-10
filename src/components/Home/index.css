@@ -1,21 +1,23 @@
-.home-main-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-}
 .carousels-container {
   height: 10vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 0px;
+  margin-top: 0px;
 }
 .home-bg-container {
+  background-color: azure;
+  height: 100vh;
+  margin-top: 0px;
+}
+.restaurants-list-container {
   display: flex;
   flex-direction: column;
+  height: max-content;
   align-items: center;
-  background-color: azure;
-  height: 63vh;
+  width: 100%;
+  height: 50vh;
+}
+.home-main-container {
+  height: 67vh;
+  overflow-y: auto;
 }

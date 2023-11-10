@@ -2,6 +2,7 @@
   padding: 40px;
   width: 100%;
   background-color: azure;
+  margin: 0px;
 }
 .offers-loader-container {
   display: flex;

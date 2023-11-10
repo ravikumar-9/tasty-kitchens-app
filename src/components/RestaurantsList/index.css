@@ -1,0 +1,11 @@
+.restaurants-list-container {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  align-items: center;
+  width: 100%;
+}
+.sort-by-header-container {
+  width: 100%;
+  background-color: aqua;
+}

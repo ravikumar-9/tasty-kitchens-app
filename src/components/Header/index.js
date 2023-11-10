@@ -2,7 +2,7 @@ import {Component} from 'react'
 
 import Cookies from 'js-cookie'
 
-import {withRouter} from 'react-router-dom'
+import {withRouter, Link} from 'react-router-dom'
 
 import SectionItem from '../SectionItem'
 
@@ -35,10 +35,13 @@ class Header extends Component {
         <nav className="header-container">
           <li className="header-sub-container">
             <div className="header-logo-container">
-              <img
-                src="https://res.cloudinary.com/dppqkea7f/image/upload/v1625742512/Frame_274_zlrzwk.svg"
-                alt=" website logo"
-              />
+              <Link to="/" className="nav-link">
+                <img
+                  src="https://res.cloudinary.com/dppqkea7f/image/upload/v1625742512/Frame_274_zlrzwk.svg"
+                  alt=" website logo"
+                />
+              </Link>
+
               <h1 className="header-website-heading">Tasty Kitchens</h1>
             </div>
             <div className="sections-container">
@@ -49,14 +52,15 @@ class Header extends Component {
                   isActive={currentPath === eachOption.path}
                 />
               ))}
+
+              <button
+                type="button"
+                className="logout-button"
+                onClick={this.onClickLogout}
+              >
+                Logout
+              </button>
             </div>
-            <button
-              type="button"
-              className="logout-button"
-              onClick={this.onClickLogout}
-            >
-              Logout
-            </button>
           </li>
         </nav>
       </>

@@ -1,0 +1,20 @@
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 7%;
+  margin: 17px;
+}
+.counter-button {
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+.counter-button.active {
+  opacity: 1;
+}
+.page-number {
+  font-weight: bold;
+  font-size: 13px;
+}
